@@ -2011,6 +2011,7 @@ textarea::placeholder {
     }
 }
 
+
 @media (max-width: 768px) {
     .client-testimonials-section {
         padding: 60px 0;
@@ -2038,6 +2039,7 @@ textarea::placeholder {
         font-size: 0.95em;
     }
 }
+
 
 /* Testimonials Slider Section */
 .testimonials-slider-section {
@@ -2126,6 +2128,21 @@ textarea::placeholder {
     justify-content: space-between;
     pointer-events: none;
     z-index: 10;
+}
+
+
+@media (max-width: 768px) {
+    .slider-nav {
+        position: absolute;
+        top: 85%;
+        left: -25px;
+        right: -25px;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        pointer-events: none;
+        z-index: 10;
+    }
 }
 
 .prev-btn,
